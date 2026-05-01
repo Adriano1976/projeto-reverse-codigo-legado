@@ -1,0 +1,50 @@
+Para garantir que seu trabalho esteja sempre salvo e sincronizado no GitHub antes de fechar o Antigravity, o ideal é seguir um pequeno "ritual" (ciclo) de comandos Git. 
+
+Aqui estão os **3 passos essenciais**:
+
+### 1. Salvar tudo (Add & Commit): Sempre salve suas alterações em um pacote oficial (commit). Isso evita que você perca o que fez se o computador desligar ou se algo falhar no próximo início.
+
+```powershell
+git add .
+git commit -m "Resumo das mudanças de hoje"
+```
+
+### 2. Sincronizar (Pull): Antes de enviar os seus arquivos, é importante puxar as atualizações que podem ter sido feitas diretamente no site do GitHub ou por outros agentes. Isso evita o erro de "divergência" que vimos antes.
+
+```powershell
+git pull origin main
+```
+
+### 3. Enviar (Push): Por fim, mande tudo para as nuvem do GitHub. Assim, o projeto estará seguro e atualizado quando você voltar.
+
+```powershell
+git push origin main
+```
+
+---
+
+### Dica de Ouro: "Comando Único"
+
+Se você quiser facilitar, pode rodar tudo de uma vez só no terminal colando esta linha única:
+`git add .; git commit -m "Sincronização diária"; git pull origin main --no-rebase; git push origin main`
+
+**Como está o progresso agora?** 
+Vi que você tentou rodar o commit manualmente. Deixe-me verificar se ele deu certo ou se ficou "preso" aguardando algo.
+
+*(Vou checar o status agora...)*
+
+---
+### Verificação de Status atual:
+
+Vou conferir se o seu comando de commit foi concluído com sucesso. 
+*(Executando `git status` para confirmar)*:
+```powershell
+git status
+```
+
+---
+> [!TIP]
+> **Por que fazer isso?** Se você não fizer o `push` antes de sair, as mudanças ficam só no seu computador. Se você precisar acessar o código de outro lugar ou se o computador der problema, você terá apenas a versão antiga do GitHub.
+
+*(Vou dar uma olhada rápida se aquele seu commit terminou)*: 
+I'll run `git status` now to check.

@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-05-01T14:48:00Z",
+  "modules": [
+    {
+      "name": "quiz_engine",
+      "path": "app/JogoBiblico.pyw",
+      "purpose": "Gerenciamento da interface principal e orquestração do jogo",
+      "primary_files": ["app/JogoBiblico.pyw"],
+      "functions": [
+        {
+          "name": "Packing.__init__",
+          "params": ["instancia"],
+          "returns": "None",
+          "confidence": "confirmed"
+        },
+        {
+          "name": "donothing",
+          "params": [],
+          "returns": "None",
+          "confidence": "confirmed"
+        }
+      ],
+      "complexity": "low"
+    },
+    {
+      "name": "question_bank",
+      "path": "app/JogoBiblico.pyw",
+      "purpose": "Coleção de perguntas, respostas e feedbacks bíblicos",
+      "primary_files": ["app/JogoBiblico.pyw"],
+      "functions": [
+        {
+          "name": "daniel_116",
+          "params": [],
+          "returns": "None",
+          "confidence": "confirmed"
+        },
+        {
+          "name": "bt1116_onclick",
+          "params": [],
+          "returns": "None",
+          "confidence": "confirmed"
+        }
+      ],
+      "business_rules": [
+        {
+          "description": "Cada questão deve ter exatamente uma resposta correta vinculada a um handler de sucesso.",
+          "confidence": "confirmed"
+        }
+      ],
+      "complexity": "low"
+    }
+  ]
+}

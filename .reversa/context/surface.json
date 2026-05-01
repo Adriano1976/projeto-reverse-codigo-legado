@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-05-01T14:41:00Z",
+  "project_root": "c:/Users/Neide Ferreira/3D Objects/projeto-python-biblia",
+  "languages": [
+    { "name": "Python", "extensions": [".pyw"], "file_count": 1 }
+  ],
+  "primary_language": "Python",
+  "frameworks": [
+    { "name": "Tkinter", "version": "Standard Library", "source": "code_import" }
+  ],
+  "entry_points": [
+    { "path": "app/JogoBiblico.pyw", "type": "gui_entry" }
+  ],
+  "modules": [
+    "quiz_engine",
+    "question_bank"
+  ],
+  "total_files": 1
+}
